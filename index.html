@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heading{
+    height: 11rem;
+    width:100%;
+    background-color: #f7b1b1;
+    padding: 30px 10px;
+    align-items: center;
+}
+.heading hr{
+    width: 50%;
+    margin: 20px 0 20px;
+}
+#co-white{
+    color: white;
+}
+.add{
+    height: 3rem;
+    width: auto;
+    padding: 5px 10px 5px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color:mediumseagreen;
+}
+#btn{
+    margin: 50px 0 5px 0;
+}
+.foot{
+    height: 10rem;
+    width: 100%;
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+.content{
+    align-items: center;
+    
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.subs{
+    border: 1px solid white;
+    color: white;
+    height: 2.2rem;
+    padding: 8px;
+}
+#subs{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    height: 2.2rem;
+    padding: 8px;
+}
+.sub{
+    height: 10.5rem;
+    width: 97%;
+    margin: 1.5%;
+    border: 1px solid black;
+    padding: 20px;
+    line-height: 2rem
+}
+.icons{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+i{
+    margin-top: 20px;
+    font-size: 30px;
+    border: 1px white;
+    color: white;
+}
+#blue{
+    background-color: blue;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1 id="co-black">Medium</h1>
+        <hr>
+        <h1 id="co-white">Discover Stories, Articles and Research Work from GLA Students</h1>
+    </div>
+    <a href="./newarticle.html"><button id="btn" class="add">Add new Articles</button></a>
+    <div class="main">
+        <div class="sub">
+            <h1>The maze in the house</h1>
+            <p>3/3/2023</p>
+            <p>Hello everyone, new update</p>
+            <a href="#"><button id="blue" class="subs">Read More</button></a>
+            <a href="#"><button class="subs" id="green">Read More</button></a>
+            <a href="#"><button id="red" class="subs">Read More</button></a>
+        </div>
+        <div class="sub">
+            <h1>Ukrain war, Part 1</h1>
+            <p>3/3/2023</p>
+            <p>Hello everyone, It is thye first day of month and here is an update</p>
+            <a href="#"><button id="blue" class="subs">Read More</button></a>
+            <a href="#"><button class="subs" id="green">Read More</button></a>
+            <a href="#"><button id="red" class="subs">Read More</button></a>
+        </div>
+        <div class="sub">
+            <h1>Latest article</h1>
+            <p>3/3/2023</p>
+            <p>Hello everyone, It is thye first day of month and here is an update</p>
+            <a href="#"><button id="blue" class="subs">Read More</button></a>
+            <a href="#"><button class="subs" id="green">Read More</button></a>
+            <a href="#"><button id="red" class="subs">Read More</button></a>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="https://thumbs.dreamstime.com/b/old-book-flying-letters-magic-light-background-bookshelf-library-ancient-books-as-symbol-knowledge-history-218640948.jpg" alt="">
+        <div class="foot">
+            <div class="icons">
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="content">
+                <p>Sign up for our newsletter</p>
+                <input type="email" name="email" placeholder="email...">
+                <button id="subs">Subscribe</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
